@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: 500 16px/1.5 "微软雅黑";
+}
+
+body {
+    position: relative;
+    background-image: url(../img/wp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 36px;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    border: 1px solid #fff;
+    width: 800px;
+    margin-top: 10px;
+}
+
+.container img {
+    height: 150px;
+    text-align: center;
+    margin: 15px 0;
+    margin-left: 5px;
+}
+
+input[type=search]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}

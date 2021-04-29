@@ -1,0 +1,26 @@
+.comment_li {
+    border: 1px #fff solid;
+    margin-top: 10px;
+}
+
+.comment_li div {
+    text-align: center;
+}
+
+.oDel,
+.oReply {
+    margin: 5px 300px;
+    background-color: rgba(104, 131, 116, 0.712);
+    border-radius: 5px;
+}
+
+.comment_li .comment_content {
+    text-align: left;
+    font-size: 16px;
+    width: 770px;
+    margin-left: 15px;
+    margin-right: 15px;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+}

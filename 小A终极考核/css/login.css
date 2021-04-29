@@ -1,0 +1,90 @@
+/* 下方是注册模块 */
+
+.register-box,
+.login-box {
+    width: 800px;
+    margin-top: 60px;
+    margin-right: 40px;
+    border: 2px solid #333;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 5%;
+}
+
+.login-box {
+    position: absolute;
+    right: 0px;
+    top: 58px;
+    display: none;
+    height: 500px;
+}
+
+.triangle-1 {
+    position: absolute;
+    right: 159px;
+    top: -32px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 30px solid red;
+}
+
+.login-box .inputarea {
+    text-align: center;
+    margin-top: 44px;
+}
+
+.login-box input {
+    background-color: transparent;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 44px;
+    width: 400px;
+    height: 30px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    box-shadow: 0 20px 80px rgba(48, 49, 51, 0.15);
+}
+
+.inputarea #remember {
+    position: absolute;
+    left: 56%;
+    bottom: 123px;
+    background-color: none;
+    width: 20px;
+    height: 20px;
+}
+
+#login_button {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: transparent;
+    border: #333 solid 1px;
+    transition: all 1s ease-out;
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 20px 80px rgba(48, 49, 51, 0.15);
+}
+
+.login-box .inputarea>p {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#login_check {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 500;
+    font-size: 18px;
+    color: transparent;
+}
+
+#login_check img {
+    margin-left: 10px;
+}

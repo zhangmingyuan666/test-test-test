@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+
+<body>
+    <header>
+        <div class="login-logo">
+            <img src="img/Alogo.png" alt="Alogo">
+            <div>小A创新创业团队</div>
+            <img src="img/qrCode.png" alt="qrCode">
+        </div>
+        <div class="login-choice">
+            <div id="login-area">登录</div>
+            <div id="register-area">注册</div>
+        </div>
+    </header>
+
+    <div class="login-box">
+        <div class="triangle-1"></div>
+        <h1>登录</h1>
+
+        <div class="inputarea">
+            <p>账号 <input type="text" name="username" id="lg_username" /></p>
+        </div>
+        <div class="inputarea">
+            <p>密码 <input type="text" name="password" id="lg_password" /></p>
+        </div>
+        <div id="login_check">账号或密码错误,登陆失败</div>
+        <div class="inputarea">
+            记住爷<input type="checkbox" id="remember">
+        </div>
+        <button id="login_button">登录</button>
+
+    </div>
+
+    <div class="register-box">
+        <div class="triangle-2"></div>
+        <h1>注册</h1>
+        <div class="inputarea">
+            <p>账号 <input type="text" name="username" id="re_username" /></p>
+        </div>
+
+        <div class="inputarea">
+            <p>密码 <input type="password" name="password" id="re_password" /></p>
+        </div>
+
+        <div class="inputarea">
+            <p>电话 <input type="text" name="phone" id="re_phone" /></p>
+        </div>
+        <div class="inputarea">
+            <p>名字 <input type="text" name="name" id="re_name" /></p>
+        </div>
+
+        <div id="register_answer">账号已存在，无法注册!</div>
+        <button id="register_button">注册</button>
+
+    </div>
+
+
+    <script type="text/javascript" src="js/jump.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
+    <script type="text/javascript" src="js/remember.js"></script>
+
+</body>
+
+
+</html>

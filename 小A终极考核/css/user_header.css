@@ -1,0 +1,130 @@
+body {
+    border: 1px solid #333;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #fff;
+}
+
+header>div {
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 400px;
+    line-height: 88px;
+    border: 1px solid #333;
+}
+
+#changehead {
+    margin-left: 162px;
+}
+
+.user_inf div {
+    font-size: 25px;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+#headarea {
+    text-align: center;
+}
+
+#All_inf {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+#headarea img {
+    width: 100px;
+    border: 3px black solid;
+    margin: 10px 0;
+}
+
+#cp {
+    font-size: 25px;
+}
+
+#cp_area {
+    display: none;
+}
+
+.go div {
+    background-color: rgb(108, 108, 207);
+    margin-top: 5px;
+}
+
+#jump_to_con,
+#jump_to_photo {
+    height: 125px;
+    line-height: 125px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 40px;
+    background-color: rgb(108, 108, 207);
+    text-align: center;
+    cursor: pointer;
+}
+
+#add_typing {
+    display: none;
+    position: relative;
+    margin: 12px 10px;
+    background: hsla(300, 100%, 100%, 0.4);
+    box-shadow: 3px 5px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+
+#add_typing .title {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#add_typing input {
+    width: 658px;
+    margin-left: 10px;
+}
+
+#add_typing textarea {
+    width: 660px;
+    margin-left: 10px;
+    border-bottom: none;
+    height: 200px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#add_typing input {
+    height: 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#doPost {
+    position: relative;
+    height: 37px;
+    margin-left: 10px;
+    width: 662px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.triangle {
+    position: absolute;
+    top: -24px;
+    right: 5px;
+    width: 0;
+    height: 0;
+    border: 12px solid;
+    border-color: transparent transparent hsla(300, 100%, 100%, 0.5);
+}

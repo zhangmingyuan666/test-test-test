@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/user_header.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/album.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="user_inf">
+            <div id="headarea">
+                <input type="file" id='changehead' placeholder="切换头像">
+                <img src="#" alt="touxiang" id="head">
+            </div>
+
+            <div id="All_inf">
+
+            </div>
+            <div class="go">
+                <div id="exit">退出登录</div>
+                <div id="cp">修改密码</div>
+            </div>
+            <div id="cp_area">
+                <input type="text" placeholder="输入你想改变的密码" id="cp_psw">
+                <button id="cp_submit">提交</button>
+            </div>
+        </div>
+        <div class='jump_to'>
+            <div id="jump_to_con">
+                评论区
+            </div>
+            <div id="jump_to_photo">
+                相册区
+            </div>
+        </div>
+
+
+    </header>
+
+    <div class="album">
+        <div>
+            <h1>相册</h1>
+            <div>
+                <div id="my_album">我的相册</div>
+                <div id="all_album">所有相册</div>
+            </div>
+            <div>
+                <input type="text" id="album_id">
+                <div id="album_search">搜索</div>
+            </div>
+            <div>
+                <button id="create_album">新建相册</button>
+                <div>
+                    <input type="text" placeholder="请输入相册的名字" id="setname_album">
+                    <button id="click_album">提交</button>
+                </div>
+            </div>
+            <div id="container_album"></div>
+            <div id="container_photo"></div>
+        </div>
+
+    </div>
+</body>
+<script type="text/javascript" src="js/basic.js"></script>
+<script type="text/javascript" src="js/user.js"></script>
+<script type="text/javascript" src="js/photo.js"></script>
+
+</html>
